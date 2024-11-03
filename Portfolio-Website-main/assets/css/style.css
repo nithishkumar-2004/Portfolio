@@ -1286,3 +1286,17 @@ form .button-area {
 .content .resumebtn .btn:hover {
   background-color: #ddd;
 }
+.content .resumebtn .btn {
+  background-color: #6a0dad; /* Violet background color */
+  color: #fff; /* White text color */
+  font-size: 1.1rem; /* Button text size */
+  padding: 10px 20px; /* Button padding */
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.content .resumebtn .btn:hover {
+  background-color: #8a2be2; /* Lighter violet for hover effect */
+}
