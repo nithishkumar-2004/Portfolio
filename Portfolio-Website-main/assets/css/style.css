@@ -1223,3 +1223,11 @@ form .button-area {
   top: calc(100% - 12rem);
 }
 /* scroll top ends */
+.image img {
+  filter: grayscale(100%);
+  transition: filter 0.3s ease;
+}
+
+.image img:hover {
+  filter: grayscale(0%);
+}
