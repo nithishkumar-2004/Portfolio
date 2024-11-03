@@ -1223,11 +1223,11 @@ form .button-area {
   top: calc(100% - 12rem);
 }
 /* scroll top ends */
-.image img {
+.profile-pic {
   filter: grayscale(100%);
   transition: filter 0.3s ease;
 }
 
-.image img:hover {
+.profile-pic:hover {
   filter: grayscale(0%);
 }
