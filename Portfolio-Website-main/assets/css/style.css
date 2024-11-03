@@ -1223,11 +1223,56 @@ form .button-area {
   top: calc(100% - 12rem);
 }
 /* scroll top ends */
+.profile-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px; /* Adjusts space between the image and content */
+  padding: 20px;
+  flex-wrap: nowrap; /* Prevents wrapping to the next line */
+}
+
+.image {
+  flex-shrink: 0;
+}
+
 .profile-pic {
   filter: grayscale(100%);
   transition: filter 0.3s ease;
+  width: 250px; /* Increased image width */
+  height: auto;
+  border-radius: 8px;
 }
 
 .profile-pic:hover {
   filter: grayscale(0%);
+}
+
+.content {
+  max-width: 600px; /* Controls width of the text content */
+}
+
+.content h3 {
+  font-size: 2rem; /* Increased heading size */
+  margin-bottom: 10px;
+}
+
+.content .tag {
+  font-size: 1.2rem; /* Subtitle size */
+  font-weight: bold;
+  color: #666; /* Optional: Adjust color */
+}
+
+.content p {
+  font-size: 1.1rem; /* Paragraph text size */
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.content .box-container .box p {
+  font-size: 1rem; /* Box text size */
+}
+
+.content .resumebtn .btn {
+  font-size: 1.1rem; /* Button text size */
+  padding: 10px 20px; /* Increased button padding */
 }
